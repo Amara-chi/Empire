@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+</head>
+<body>
+    <section class="login">
+        <section class="form_area" name="afren">
+            <form action="">
+                <img src="afren logo 1.png" alt="" class="logo-la-la">
+                <h1 class="loggy">Log in</h1>
+                <p class="afren">Log in to Afren</p>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="Email address">
+                </div>
+                <div class="password">
+                    <label for="password"></label>
+                    <input type="password" id="password" placeholder="Password">
+                    <i class="fa fa-eye hidden"></i>
+                    <i class="fa fa-eye-slash"></i>
+                </div>
+                <div class="forget">
+                    <input type="checkbox">
+                    <p class="one">Remember me</p>
+                    <p class="two">Forgot password?</p>
+                </div>
+                <input type="submit" value="Log in">
+                <div class="or">
+                    <div class="line"></div>
+                    <h6>OR</h6>
+                    <div class="line"></div>
+                </div>
+                <button class="google">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzmwConsAb6apPniVoMtGruouJXZ5MPYSxib6foY__g&s" alt="google icon" width="40px">
+                    <p>Continue with Google</p>
+                </button>
+                <p><span><a href=""></a></span></p>
+                <p class="quesy">Don't have an account? <span class="sign">Sign up</span></p>
+            </form>
+        </section>
+        <section class="welcome">
+            <h3> Welcome to Afren dashboard</h1>
+            <p class="pee">Lorem ispum dolor sit amet consectetur. Sit dui dolor morbi enim arcu ipsum venenatis</p>
+            <div class="container">
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, possimus fugiat minus debitis nihil recusandae nemo corrupti numquam temporibus quis.
+                </p>
+                <div class="personnel">
+                    <img src="Screenshot_2023-06-12-14-57-35-56_a63b0f8076346d26cbdc1b971a1da2a7 (2).jpg" alt="my lovely self" class="me">
+                    <div class="info">
+                        <p>Mitchell Bronne</p>
+                        <p>CEO <strong>Mailstack</strong></p>
+                        <div class="star">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                        </div>
+                    </div>
+                    <div class="verify">
+                        <i class="fa fa-check-circle"></i>
+                        <h6>Verified Client</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="containerII"></div>
+            <div class="containerIII"></div>
+            <div class="containerIV"></div>
+        </section>
+    </section>
+    <script>
+        var eye = document.querySelector('.fa-eye')
+        var eyeSlash = document.querySelector('.fa-eye-slash')
+        eyeSlash.addEventListener('click',() =>{
+            eyeSlash.classList.add('hidden');
+            eye.classList.toggle('hidden');
+        } )
+        eye.addEventListener('click',() =>{
+            eye.classList.add('hidden');
+            eyeSlash.classList.toggle('hidden');
+        } )
+    </script>
+</body>
+</html>
